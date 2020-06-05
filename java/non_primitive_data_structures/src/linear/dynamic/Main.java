@@ -8,6 +8,9 @@ public class Main {
         names.addLast("Feze");
         names.addLast("Amani");
 
+        names.removeFirst(); // Remove Byamungu
+        System.out.println("");
+
         // Linklist version 2
         LinkedListv2<Integer> grades = new LinkedListv2<>();
 

@@ -35,4 +35,14 @@ public class LinkedListv1<E> {
         }
         temp.next = node;
     }
+
+
+    public E removeFirst() {
+        if (head == null)
+            return null;
+
+        E data = head.data;
+        head = head.next;
+        return data;
+    }
 }

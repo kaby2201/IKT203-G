@@ -44,5 +44,3 @@ Boundary conditions:
     You have to think about those boundary conditions regardless of the data structure when implementing a new method
     and how this will effect your data structure.
 
-
-
