@@ -1,0 +1,48 @@
+Java- Autoboxing:
+
+byte, short, int, long, double, char boolean are all primitive types.
+The memory size will be set: Example:
+    - byte  => size of 1byte
+    - short => 2 bytes
+    - int  => 4 bytes
+    - char => 2 bytes
+    ...
+Primitive types are not object, so they don't have toString, hasCode, toEquals ect.
+In java your have a wrapper for many of this types, they are all capitalize.
+Remember we don't have wrapper for int is Integer.
+
+Java will try to switch between those types by something called autoboxing.
+See Java doc for more.
+
+Java Exceptions:
+
+Java class extends java.lang.Exceptions class.
+We can also extend this class to in our, remember to call the super in your constructor, the call the extend
+constructor.
+
+Linklist:
+Unlike array where elements are saved in a linear order and has a max/min size from the begging.
+Linklist is here to solve that problem!!! 😂
+Linked list/linklist all elements (nodes) are saved with a pointer to the next value.
+First value is head, the last value tail.
+
+See examples in none-liner.
+
+We are going to use linklist in graphs, trees and many other data structure that we are going to build.
+So Yes! Linklist is our foundations for learning datastructures and algorithms. 🙄
+
+Something to remember, only head the first element can show us where the next element is.
+
+
+Boundary conditions:
+    => Empty data structures
+    => Single element in the data structures
+    => Adding or removing from the beginning of data structure.
+    => Adding or removing from the end of data structure.
+    => Working in the middle
+
+    You have to think about those boundary conditions regardless of the data structure when implementing a new method
+    and how this will effect your data structure.
+
+
+
