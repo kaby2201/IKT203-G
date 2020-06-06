@@ -3,13 +3,13 @@ package linear.dynamic;
 public class Main {
     public static void main(String[] args) {
         // Linklist version 1
-        LinkedListv1<String> names = new LinkedListv1<>();
-        names.addLast("Byamungu");
-        names.addLast("Feze");
-        names.addLast("Amani");
+//        LinkedListv1<String> names = new LinkedListv1<>();
+//        names.addLast("Byamungu");
+//        names.addLast("Feze");
+//        names.addLast("Amani");
+//
+//        System.out.println(names.removeFirst()); // Remove Byamungu
 
-        names.removeFirst(); // Remove Byamungu
-        System.out.println("");
 
         // Linklist version 2
         LinkedListv2<Integer> grades = new LinkedListv2<>();
@@ -17,5 +17,8 @@ public class Main {
         grades.addLast(2);
         grades.addLast(6);
         grades.addLast(7);
+        System.out.println(grades.removeLast());
+        System.out.println(grades.removeLast());
+        System.out.println();
     }
 }
