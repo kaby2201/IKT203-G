@@ -1,3 +1,7 @@
+/*
+    Linear means that elements are arranged in or extending along a straight
+    Dynamic is referred to; element size is not determined in advance (e.g array)
+ */
 package linear.dynamic;
 
 public class Main {
