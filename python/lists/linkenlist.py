@@ -27,9 +27,9 @@ class LinkedList:
             self.value = value
             self.next = next
 
-
-myLinkedList = LinkedList()
-myLinkedList.add('Byamungu')
-myLinkedList.add('Kabiraba')
-myLinkedList.add('Feze')
-print(myLinkedList.get_value())
+if __name__ == '__main__':
+    myLinkedList = LinkedList()
+    myLinkedList.add('Byamungu')
+    myLinkedList.add('Kabiraba')
+    myLinkedList.add('Feze')
+    print(myLinkedList.get_value())
