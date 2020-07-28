@@ -1,0 +1,70 @@
+@startuml
+!include <cloudinsight/java>
+!include <cloudinsight/python>
+
+title IKT203
+
+skinparam monochrome true
+
+rectangle "<$java>\nJava" as jv
+folder "None Primitive data structures" as npds
+folder "Primitive data structures" as pds
+
+folder Linear as l
+folder "None Linear" as nl
+
+folder Trees as trees
+folder Arrays as arrays
+
+folder Static as static
+folder Dynamic as dynamic
+
+folder Boolean as boolean
+folder Numeric as numeric
+
+folder Integral as integral
+folder Integer as integer
+folder Character as char
+folder byte as byte
+folder short as short
+folder int as int
+folder "Floating-point" as fp
+folder float as float
+folder double as double
+
+jv --> npds
+jv --> pds
+npds --> l
+npds --> nl
+l --> arrays
+nl --> trees
+
+l --> static
+l --> dynamic
+
+pds --> boolean
+pds --> numeric
+numeric --> char
+numeric --> integral
+
+integral --> integer
+integral --> fp
+
+integer --> byte
+integer --> short
+integer --> int
+integer --> ect
+
+fp --> float
+fp --> double
+
+
+rectangle "<$python>\nPython" as py
+folder Grapths as gs
+folder Lists as ls
+folder Sorts as sort
+
+py --> gs
+py --> ls
+py --> sort
+@enduml
